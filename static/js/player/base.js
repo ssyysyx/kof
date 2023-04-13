@@ -1,4 +1,4 @@
-import { AcGameObject } from '../ac_game_object/base.js';
+import { AcGameObject } from '/kof/static/js/ac_game_object/base.js';
 
 class Player extends AcGameObject {
     //root方便索引整个地图每个元素，还要传player相关信息info

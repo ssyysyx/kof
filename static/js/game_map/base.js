@@ -1,5 +1,5 @@
-import { Controller } from '../controller/base.js';
-import { AcGameObject } from '../ac_game_object/base.js';
+import { Controller } from '/kof/static/js/controller/base.js';
+import { AcGameObject } from '/kof/static/js/ac_game_object/base.js';
 
 class GameMap extends AcGameObject {
     constructor(root) {

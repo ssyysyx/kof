@@ -1,5 +1,5 @@
-import { Player } from "../player/base.js";
-import { GIF } from '../utils/gif.js';
+import { Player } from "/kof/static/js/player/base.js";
+import { GIF } from '/kof/static/js/utils/gif.js';
 
 export class Kyo extends Player {
     constructor(root, info) {
@@ -13,7 +13,7 @@ export class Kyo extends Player {
         //动画一共有七个
         for (let i = 0; i < 7; i++) {
             let gif = GIF();
-            gif.load(':/../../static/images/player/'+`kyo/${i}.gif`);
+            gif.load(`/kof/static/images/player/kyo/${i}.gif`);
             //给Map插入键值对，value存到一个结构体里面
             this.animations.set(i, {
                 gif: gif,
